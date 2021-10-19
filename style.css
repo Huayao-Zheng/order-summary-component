@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+:root {
+  --title-color: #1f2e55;
+  --text-color: #717fa6;
+  --purple: #382ae1;
+}
+
+html {
+  background: #e0e8ff;
+}
+
+body {
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 28.125rem;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+main .hero-img {
+  margin-bottom: 2.813rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3rem 3rem 3rem;
+}
+
+article h1 {
+  color: var(--title-color);
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 2.313rem;
+  margin-bottom: 1.063rem;
+}
+
+article > p {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  background: #f7f9ff;
+  height: 6.125rem;
+  width: 100%;
+  border-radius: 0.688rem;
+  margin-bottom: 2rem;
+}
+
+.plan a {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+}
+
+.plan__music-icon {
+  margin: 0 1.25rem 0 1.5rem;
+}
+
+.plan__info {
+  margin-right: 5.875rem;
+}
+
+.plan__info h2,
+.plan__info p {
+  font-size: 1rem;
+  line-height: 1.313rem;
+}
+
+.plan__info h2 {
+  color: var(--title-color);
+  font-weight: 900;
+}
+
+.plan__info p {
+  color: var(--text-color);
+}
+
+.payment-btn,
+.cancel-btn {
+  border: none;
+  font-weight: 900;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+}
+
+.payment-btn {
+  background: var(--purple);
+  color: #fff;
+  width: 100%;
+  padding: 0.938rem 6.375rem;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 0.688rem;
+  margin-bottom: 2rem;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  color: var(--text-color);
+}
