@@ -23,6 +23,7 @@ body {
   width: 100vw;
   display: grid;
   place-items: center;
+  position: relative;
 }
 
 main {
@@ -137,6 +138,10 @@ article > p {
 .cancel-btn:hover {
   color: #1f2e55;
 }
+.attribution {
+  position: absolute;
+  bottom: 1.563rem;
+}
 
 @media (max-width: 480px) {
   body {
@@ -185,5 +190,9 @@ article > p {
     font-size: 0.875rem;
     padding: 0.938rem 4.063rem;
     margin-bottom: 1.5rem;
+  }
+  .attribution {
+    bottom: 1.563rem;
+    font-size: 0.813rem;
   }
 }
