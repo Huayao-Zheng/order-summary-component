@@ -8,6 +8,7 @@
   --title-color: #1f2e55;
   --text-color: #717fa6;
   --purple: #382ae1;
+  --light-purple: #766cf1;
 }
 
 html {
@@ -78,6 +79,11 @@ article > p {
   line-height: 1.188rem;
 }
 
+.plan a:hover {
+  color: var(--light-purple);
+  text-decoration: none;
+}
+
 .plan__music-icon {
   margin: 0 1.25rem 0 1.5rem;
 }
@@ -107,6 +113,7 @@ article > p {
   font-weight: 900;
   font-size: 0.938rem;
   line-height: 1.25rem;
+  cursor: pointer;
 }
 
 .payment-btn {
@@ -118,8 +125,14 @@ article > p {
   border-radius: 0.688rem;
   margin-bottom: 2rem;
 }
+.payment-btn:hover {
+  background: var(--light-purple);
+}
 
 .cancel-btn {
   background-color: transparent;
   color: var(--text-color);
+}
+.cancel-btn:hover {
+  color: #1f2e55;
 }
