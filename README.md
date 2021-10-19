@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- [Live]()
-- [Solution]()
+- [Live](https://lonelybuddy.github.io/order-summary-component/)
+- [Solution](https://www.frontendmentor.io/solutions/htmlandcss-e35wy2cFr)
 
 ### Built with
 
